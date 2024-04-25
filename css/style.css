@@ -1,0 +1,115 @@
+body {
+    background-image: url(https://images.pexels.com/photos/82256/pexels-photo-82256.jpeg?auto=compress&cs=tinysrgb&w=600);
+    background-size: cover;
+    background-position: center;
+}
+
+main {
+    padding-top: 64px;
+    padding-left: 128px;
+    padding-right: 128px;
+    padding-bottom: 64px;
+}
+
+.main-title {
+    text-align: center;
+    font-size: 250%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+.main-section {
+    padding: 32px;
+    background-color: bisque;
+    border-radius: 12px;
+}
+
+.section-celcius {
+    padding-top: 8px;
+    padding-bottom: 16px;
+    border-radius: 12px;
+}
+
+.section-fahrenheit {
+    padding-top: 8px;
+    padding: 32px;
+    background-color: azure;
+    border-radius: 12px;
+    border-radius: 12px;
+    margin-top: 5px;
+}
+
+.section-result {
+    padding-top: 8px;
+    padding: 32px;
+    background-color: blanchedalmond;
+    border: 12px;
+    border-radius: 12px;
+    margin-top: 5px;
+}
+
+.section-explanation {
+    padding-top: 8px;
+    padding: 32px;
+    background-color: cornsilk;
+    border: 12px;
+    border-radius: 12px;
+    margin-top: 5px;
+}
+
+textarea {
+    width: 75%;
+    height: 32px;
+    padding: 6px 12px;
+    border: 2px solid lightslategray;
+    resize: none;
+    box-sizing: border-box;
+    font-size: 16px;
+    border-radius: 8px;
+    height: 50%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.formula-s {
+    font-size: 20px;
+    font-style: italic;
+}
+
+.formula-s>sub {
+    font-style: normal;
+}
+
+button {
+    padding: 8px;
+    border: none;
+    border-radius: 8px;
+    font-family: arial;
+}
+
+#button-convert {
+    background-color: cornflowerblue;
+    margin-right: 8px;
+    margin-top: 8px;
+
+}
+
+#button-reset {
+    background-color: lightblue;
+    margin-right: 8px;
+    margin-top: 8px;
+
+}
+
+#button-revert {
+    background-color: lightgray;
+    margin-top: 8px;
+}
+
+#f-to-c {
+    display: none;
+}
+
+@media only screen and (max-width : 480px) {
+    .container-button {
+        display: none;
+    }
+}
